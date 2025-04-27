@@ -1,0 +1,95 @@
+/* Global Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff9f5;
+    color: #3e2723;
+}
+
+h1, h2 {
+    color: #6d4c41;
+}
+
+a {
+    color: #bf360c;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Container */
+.rt-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header */
+.rt-text-white {
+    background-color: #5d4037;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 12px;
+    margin-bottom: 30px;
+}
+
+/* Main Content */
+.rt-main-content {
+    padding: 10px;
+    background-color: #fff3e0;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Section Header */
+.rt-section-header {
+    font-size: 1.5rem;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    color: #4e342e;
+}
+
+/* Responsive Table */
+.rt-responsive-table {
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    padding: 12px 15px;
+    text-align: center;
+    border-bottom: 1px solid #d7ccc8;
+}
+
+th {
+    background-color: #bcaaa4;
+    color: white;
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: #efebe9;
+}
+
+tr:hover {
+    background-color: #d7ccc8;
+}
+
+/* Text Left Class */
+.rt-text-left {
+    text-align: left;
+}
+
+/* Section Small */
+.rt-section-small {
+    margin-top: 30px;
+}
